@@ -1,0 +1,155 @@
+<app-contact-top></app-contact-top>
+<app-header></app-header>
+<div class="title">
+	<img src="./assets/img/about-top-img.jpeg" width="100%" height="90%">
+	<h1>About</h1>
+</div>
+
+<div class="details">
+	<h1 class="text-center">In more than 25 years we've been in the business so far,<br> our credibility's been only improving!</h1>
+	<div class="wethebest">
+		<p class="text-center subtitle">We are the best in:</p>
+		<div class="row all-details">
+			<div class="col-md-4 col-lg-4 col-sm-4">
+				<b>01.</b>
+				<h3>Winch-out</h3>
+				<p>Winching out a car, that's stuck in a mud,<br> dirt, sand or any other kind of a terrain or <br> whatever - is what we do the best!</p>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4">
+				<b>02.</b>
+				<h3>Car Towing</h3>
+				<p>Should your car ever get involved in an<br>unfortunate accident and be stuck, we'll always<br>be ready to come to your aid and save the day!</p>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4">
+				<b>03.</b>
+				<h3>On-site Repair</h3>
+				<p>Getting off the road or getting into a road<br>accident can inflict very serious technical <br>damage to your car's most crucial parts.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<h1 class="text-center">Meet our Team</h1>
+	<div class="row team-members text-center">
+		<div class="col-md-3 col-lg-3 col-sm-6">
+			<img src="assets/img/team_member_1.jpg" width="100%">
+			<b>Alex Buoyega</b>
+			<br>
+			<small>Manager</small>
+			<p>Mr. Buoyega was born in one of Detroit's poorest blocks, all before pursuing his successful managerial career in the future. For him, the breakthrough happened</p>
+		</div>
+		<div class="col-md-3 col-lg-3 col-sm-6">
+			<img src="assets/img/team_member_2.jpg" width="100%">
+			<b>Taylor Wilson</b>
+			<br>
+			<small>Chief Executive Officer</small>
+			<p>A talented and creative leader, Kenneth is known among his colleagues for how good his organizing and team leading skills are... Working priorly for a</p>
+		</div>
+		<div class="col-md-3 col-lg-3 col-sm-6">
+			<img src="assets/img/team_member_3.jpg" width="100%">
+			<b>Catylin Chirstman</b>
+			<br>
+			<small>Manager</small>
+			<p>Being as a devoted family woman as she is, it is incredible how Catylin has time left for managing multi-million dollar contracts, satisfying all</p>
+		</div>
+		<div class="col-md-3 col-lg-3 col-sm-6">
+			<img src="assets/img/team_member_4.jpg" width="100%">
+			<b>Martin Gray</b>
+			<br>
+			<small>Manager</small>
+			<p>Originally from London, at one point of his sophomore college year, Martin decied to turn the tables for hits career and travel to the US</p>
+		</div>
+	</div>
+</div>
+
+<div class="business-section-container">
+	<section class="business-details">
+		<div>
+			<ul class="list-group precentage-list">
+				<li>
+					<h1>100%</h1>
+				</li>
+				<li>
+					<h1>96</h1>
+				</li>
+				<li>
+					<h1>28</h1>
+				</li>
+			</ul>
+			<div class="row business-detail text-center">
+				<div class="col-md-4">
+					<p>Happy Customers</p>
+				</div>
+				<div class="col-md-4">
+					<p>Crew Members</p>
+				</div>
+				<div class="col-md-4">
+					<p>Years in Business</p>
+				</div>
+			</div>
+		</div>
+	</section>	
+</div>
+
+<div class="container">
+	<h1 class="text-center">Contact Us</h1>
+	<div class="row contact-us">
+		<div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+			<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+				<div class="form-group">
+					<input
+						type="text"
+						placeholder="Your name"
+						id="username"
+						name="username"
+						required
+						username
+						ngModel
+						#username="ngModel">
+				</div>
+				<div class="form-group">
+					<input
+						type="email"
+						placeholder="Your e-mail"
+						id="email"
+						name="email"
+						required
+						ngModel
+						email
+						#email="ngModel">
+				</div>
+				<span
+					*ngIf="!email.valid && email.touched"
+					class="help-block"
+					style="text-align: left !important">Please enter a valid mail</span>
+				<div class="form-group">
+					<input
+						type="text"
+						placeholder="Your phone"
+						id="phoneNumber"
+						maxlength="12"
+						name="phoneNumber"
+						required
+						phoneNumber
+						ngModel
+						#phoneNumber="ngModel">
+				</div>
+				<div class="form-group">
+					<textarea
+						type="text"
+						placeholder="Your message"
+						rows="10"
+						id="message"
+						name="message"
+						required
+						message
+						ngModel
+						#message="ngModel"></textarea>
+				</div>
+				<br>
+				<button class="btn btn-primary" type="submit" [disabled]="!f.valid">SEND</button>
+			</form>
+		</div>
+	</div>
+</div>

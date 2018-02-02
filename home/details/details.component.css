@@ -1,0 +1,14 @@
+* { font-family: 'Lato', sans-serif; }
+
+.container {
+	padding: 115px 0;
+}
+
+.detail-text-sm {
+	font-size: 13px;
+	color: #aeaeae;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #4769b1;
+}

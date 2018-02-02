@@ -1,0 +1,14 @@
+* { font-family: 'Lato', sans-serif; }
+
+.carousel-control {
+	background: none;
+}
+
+.glyphicon-chevron-left:before,
+.glyphicon-chevron-right:before {
+	font-size: 70px;
+}
+
+.carousel-inner img {
+	height: 800px;
+}

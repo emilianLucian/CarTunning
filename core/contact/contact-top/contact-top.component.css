@@ -1,0 +1,18 @@
+* { font-family: 'Lato', sans-serif; }
+
+nav {
+	background: rgb(245, 246, 249);
+	border-width: 0px 0px 1px;
+	border-style: solid;
+	border-color: rgb(236, 236, 238);
+	padding: 15px 0 15px 135px;
+}
+
+nav ul li {
+	color: #808080;
+	font-size: 12px;
+}
+
+.navbar-right li {
+	padding-right: 125px;
+}

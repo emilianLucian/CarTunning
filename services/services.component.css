@@ -1,0 +1,51 @@
+* { font-family: 'Lato', sans-serif; }
+
+.services-header {
+	padding: 250px 0;
+	width: 100%;
+	height: auto;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('https://static.pexels.com/photos/2071/broken-car-vehicle-vintage.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+}
+.services-header h1, .services-header p { color: #fff; }
+.services-header h1 { font-size: 100px; font-weight: 700; }
+.services-header p { font-size: 24px; font-weight: 700; }
+
+.our_services {
+	background-color: rgb(248, 248, 248);
+}
+.subtitle {
+	color: #36404b;
+	font-size: 36px;
+	font-weight: 700;
+	padding-top: 90px;
+}
+.row {
+	padding-left: 6%;
+	position: relative;
+}
+.all-details b {
+	font-size: 100px;
+	color: #dee2ed;
+	font-weight: 700;
+	z-index: 10;
+}
+.all-details p {
+	padding-left: 20px;
+	color: #666666;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+.row h3 {
+	position: absolute;
+	top: 17.5%;
+	font-size: 26px;
+	font-weight: 700;
+	padding-left: 20px;
+	cursor: pointer;
+	z-index: 15;
+}
+.row h3:hover { color: #b9141c; }

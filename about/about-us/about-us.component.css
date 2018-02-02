@@ -1,0 +1,161 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+/*input.ng-invalid.ng-touched {
+	border: 1px solid rgba(255, 0, 0, 0.5);
+}*/
+
+input {
+	background-color: #EFEFEF;
+	padding: 17.5px 4px;
+	width: 749px;
+	height: 52px;
+	border: none;
+}
+textarea {
+	background-color: #EFEFEF;
+	padding: 4px;
+	width: 749px;
+	height: 206px;
+	border: none;
+}
+
+::-webkit-input-placeholder
+ { color: #333; font-family: 'Lato', sans-serif;}
+
+.title { position: relative; }
+.title h1 { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 100px;
+}
+
+.details h1 {
+	font-size: 36px;
+	color: #36404b;
+	font-weight: 700;
+	padding-top: 75px;
+	padding-bottom: 60px;
+}
+
+.wethebest {
+	background-color: rgb(248, 248, 248);
+}
+.subtitle {
+	color: #36404b;
+	font-size: 36px;
+	font-weight: 700;
+	padding-top: 70px;
+}
+.row {
+	padding-left: 6%;
+	position: relative;
+}
+.all-details b {
+	font-size: 100px;
+	color: #dee2ed;
+	font-weight: 700;
+	z-index: 10;
+}
+.all-details p {
+	padding-left: 20px;
+	color: #666666;
+	font-size: 16px;
+	padding-bottom: 85px;
+}
+.row h3 {
+	position: absolute;
+	top: 17.5%;
+	font-size: 26px;
+	font-weight: 700;
+	padding-left: 20px;
+	cursor: pointer;
+	z-index: 15;
+}
+.row h3:hover { color: #b9141c; }
+
+.container h1 {
+	font-size: 36px;
+	color: #36404b;
+	font-weight: 700;
+	padding-top: 80px;
+	padding-bottom: 35px;
+}
+.team-members img { padding-bottom: 25px; }
+.team-members b {
+	font-size: 18px;
+	font-weight: 700;
+	color: black;
+}
+.team-members small {
+	font-size: 14px;
+	color: #4769b1;
+	padding-top: 15px;
+}
+.team-members p {
+	font-size: 16px;
+	color: #181d26;
+	padding-top: 20px;
+	line-height: 1.3;
+	padding-bottom: 120px;
+}
+
+/* Business Details */
+.business-details {
+	width: 100%;
+	height: auto;
+	background: linear-gradient(0deg, rgba(76, 76, 76, 0.25), rgba(76, 76, 76, 0.25)), url('https://static.pexels.com/photos/9796/car-refill-transportation-transport.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+}
+
+ul li h1, .business-detail { color: white; }
+ul li { display: inline-block; }
+
+.precentage-list { position: relative; padding-top: 12.5%; }
+.precentage-list li {
+	width: 280px;
+  height: 280px;
+  border-radius: 150px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(67, 94, 155);
+  margin-right: 7.5%;
+}
+.precentage-list li:first-child { margin-left: 11%; }
+.precentage-list li h1 { 
+	position: absolute;
+	padding-top: 6.75%;
+ }
+.precentage-list li h1:first-child { padding-left: 6.75%; }
+.precentage-list li:nth-child(2) h1,
+.precentage-list li:nth-child(3) h1 { padding-left: 8.25%; }
+
+.business-detail div:nth-child(3) { padding-right: 14.5%; }
+.business-detail div:nth-child(2) { padding-right: 8%; }
+.business-detail div:first-child { padding-left: 1.75%; }
+.business-detail div p { font-size: 18px; font-weight: 700; }
+.business-detail { padding-top: 2%; padding-bottom: 10%;}
+
+/* Contact us */
+.contact-us {
+	margin: 0;
+	padding: 0;
+}
+.contact-us button {
+	background-color: #4769b1;
+	font-size: 14px;
+	padding: 13.5px 40px;
+}
+.contact-us {
+	text-align: center;
+	padding-bottom: 12.5%;
+}
